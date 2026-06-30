@@ -1,0 +1,12 @@
+services:
+  powertab:
+    build: .
+    image: powertab-novnc
+    container_name: powertab
+    ports:
+      - "6080:6080"
+    environment:
+      - SCREEN_RES=1920x1080
+    volumes:
+      - /home/danko/tabs:/tabs   # adjust to your real host path
+    restart: "no"
