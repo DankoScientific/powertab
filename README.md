@@ -53,8 +53,6 @@ needs is the repo URL.
    - **Repository URL:** the HTTPS URL of this repo
    - **Reference:** `refs/heads/main`
    - **Compose path:** `docker-compose.yml`
-   - **Authentication:** enable if the repo is **private**, and supply your
-     GitHub username + a Personal Access Token (PAT) with `repo` scope
 3. Click **Deploy the stack**.
 
 The first deploy runs the full build (cloning Power Tab Editor and compiling
@@ -77,7 +75,7 @@ http://<docker-host>:6660/vnc.html?autoconnect=1&resize=scale
 ### Start / stop
 
 Use the **Stacks** (or **Containers**) page in Portainer to stop and start the
-container on demand. It's designed to be off when not in use.
+container on demand. It's designed to be off when not in use. Or leave it on, idgaf.
 
 ## Credits & license
 
