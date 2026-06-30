@@ -3,7 +3,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     # build toolchain + PowerTab deps
-    cmake g++ git ca-certificates \
+    cmake build-essential git ca-certificates \
     qt6-base-dev qt6-tools-dev qt6-tools-dev-tools qt6-l10n-tools \
     libboost-dev libboost-date-time-dev libboost-iostreams-dev \
     nlohmann-json3-dev libasound2-dev librtmidi-dev \
