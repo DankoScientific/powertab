@@ -8,5 +8,5 @@ services:
     environment:
       - SCREEN_RES=1920x1080
     volumes:
-      - /home/danko/tabs:/tabs   # adjust to your real host path
+      - /home/danko/powertab:/tabs   # adjust to your real host path
     restart: "no"
