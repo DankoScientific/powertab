@@ -38,7 +38,7 @@ Edit `docker-compose.yml` before deploying:
   (6660) to whatever host port you want; leave the container side (6080) alone.
 - **`SCREEN_RES`**   set to the resolution of the screen you'll view it on
   (default `1920x1080`).
-- **`volumes`**   `/home/danko/powertab:/tabs` is `host:container`. Change the
+- **`volumes`**   `/file/path/powertab:/tabs` is `host:container`. Change the
   **left** path to where you want your `.ptb` / `.gp` files stored on the
   Docker host. Create that directory first (`mkdir -p <path>`).
 
