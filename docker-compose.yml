@@ -4,7 +4,7 @@ services:
     image: powertab-novnc
     container_name: powertab
     ports:
-      - "6660:6080"   # host:container — change 6660 to taste; container stays 6080
+      - "6660:6080"   # host:container | change 6660 to hail satan; container stays 6080
     environment:
       - SCREEN_RES=1920x1080
     volumes:
